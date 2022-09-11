@@ -11,3 +11,9 @@ Highly Available Web Applications
 ## AWS Cloud Economics.
 - created an estimation of architecture using the AWS Pricing Calculator.
 - Change the EC2 instance type to t2.micro and generated new price estimate URL.![Screen Shot 2022-09-11 at 3 23 15 PM](https://user-images.githubusercontent.com/55474202/189547450-f5018967-5f43-462f-9b49-86c85406ba2f.png)
+
+## Auto healing and Scaling Applications.
+- Created an EC2 template from an existing EC2 instance.
+- Configured an Auto Scaling Group with minimum of two and maximum of 4 instances.
+- Assigned a CPU utilization metric and schedule based on Auto Scaling rules.
+- Configured an Auto Scaling policy to scale down to 0 resources at 1 AM UTC every day.![Screen Shot 2022-09-11 at 3 30 03 PM](https://user-images.githubusercontent.com/55474202/189547677-8a2b2048-445d-4117-89b7-226b57458b97.png)
