@@ -46,7 +46,8 @@
     Your cost estimation link persits. If you need to share your estimates with other people,
     just send them your link.
     
-    
+    ![Screen Shot 2022-09-11 at 3 19 03 PM](https://user-images.githubusercontent.com/55474202/189547295-bb6a56da-0f15-480e-b182-94c02dc11d79.png)
+
     
     
     
