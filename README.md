@@ -24,3 +24,10 @@ Highly Available Web Applications
 - Attached a policy that allows group members to read only access to EC2.
 - Verified that group members have read only EC2 Access.
 - Granted the support Engineers group read only access to RDS.![Screen Shot 2022-09-11 at 3 36 13 PM](https://user-images.githubusercontent.com/55474202/189547891-51160940-e4ce-4899-ad72-550b7f423107.png)
+
+## Networking Concepts.
+- Helps the bank setup a seccure networking environment which allows communications between resources and the inernet.
+- Changed the WebServer subnet from private to public.![Screen Shot 2022-09-11 at 3 41 48 PM](https://user-images.githubusercontent.com/55474202/189548080-ab5c6e8a-d76b-4d4a-83f8-465b60351f63.png)
+
+- Configured a security group to allow HTTP traffic from the internet.
+- Configured the Security group rules to allow traffic over port 3306 into DataBase Server. 
