@@ -17,3 +17,10 @@ Highly Available Web Applications
 - Configured an Auto Scaling Group with minimum of two and maximum of 4 instances.
 - Assigned a CPU utilization metric and schedule based on Auto Scaling rules.
 - Configured an Auto Scaling policy to scale down to 0 resources at 1 AM UTC every day.![Screen Shot 2022-09-11 at 3 30 03 PM](https://user-images.githubusercontent.com/55474202/189547677-8a2b2048-445d-4117-89b7-226b57458b97.png)
+
+## Core Security Concepts.
+- Helps to improve security at the city's stock exchange by ensuring that support engineers can only perform authorized actions.
+- Created a SupportEngineers group.
+- Attached a policy that allows group members to read only access to EC2.
+- Verified that group members have read only EC2 Access.
+- Granted the support Engineers group read only access to RDS.![Screen Shot 2022-09-11 at 3 36 13 PM](https://user-images.githubusercontent.com/55474202/189547891-51160940-e4ce-4899-ad72-550b7f423107.png)
