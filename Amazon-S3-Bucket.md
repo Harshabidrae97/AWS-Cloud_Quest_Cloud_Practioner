@@ -41,7 +41,8 @@
      An Amazon Resource Name (ARN) uniquely identifies AWS resources.
      
 13 - With Amazon S3, you can upload objects up to 5GB in size with a single put operation.
-     For larger objects up to 5TB in size, use the multipart upload API.
+     For larger objects up to 5TB in size, use the multipart upload API.![Screen Shot 2022-09-11 at 3 15 08 PM](https://user-images.githubusercontent.com/55474202/189547171-1a1925d6-6e9e-4316-8ef1-2dcde92896a5.png)
+
  
  
  
