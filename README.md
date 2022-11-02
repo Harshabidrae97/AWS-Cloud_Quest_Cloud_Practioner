@@ -31,3 +31,24 @@ Highly Available Web Applications
 
 - Configured a security group to allow HTTP traffic from the internet.
 - Configured the Security group rules to allow traffic over port 3306 into DataBase Server. 
+
+## Migration Concepts.
+- https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2019/05/21/Tech-Mahindra-Telia-1.png![image](https://user-images.githubusercontent.com/55474202/199589311-387a753f-6937-46ee-ac2e-6835b4db9177.png)
+
+-
+Tech Mahindra-Telia-1
+
+- The following AWS services and features now host components of Telia’s new CIM microservice architecture:
+
+- AWS VPN establishes a secure and private tunnel from the on-premises data center to the AWS global network.
+- Amazon Route 53 is a Domain Name Server (DNS), which routes global traffic to the application using Elastic Load Balancing.
+- Amazon Virtual Private Cloud (Amazon VPC) sets up a logically isolated, virtual network where the application can run securely.
+- Application Load Balancer is a product of Elastic Load Balancing, which load balances HTTP/HTTPS applications and uses layer 7-specific features, like     port and URL prefix routing for containerized applications.
+- Amazon Elastic Container Service (Amazon ECS) is a container orchestration service that supports Docker containers to run and scale containerized           applications on AWS.
+- AWS Fargate is a compute engine for Amazon ECS that allows running containers without having to manage servers or clusters. Microservices are deployed as   Docker containers in the Fargate serverless model.
+- Amazon Elastic Container Registry (ECR) is integrated with Amazon ECS as a fully managed Docker container registry that makes it easy to store, manage,     and deploy Docker container images. This is used as a private repository to host built-in Docker images.
+- Amazon Aurora is a relational database compatible with MySQL and PostgreSQL, used as a database for the CIM platform migration.
+- AWS DMS migrates on-premises Oracle databases to cloud-native Aurora databases.
+- Amazon CloudWatch is a monitoring and management service used to monitor the entire CIM platform and store application logs for analysis.
+- Amazon Elastic Compute Cloud (Amazon EC2) provides compute capacity in the cloud, and was used to host Jenkins and JFrog Artifactory as a container for     the CI/CD pipeline.
+- AWS Identity and Access Management (IAM) manages access to AWS services and resources securely.
