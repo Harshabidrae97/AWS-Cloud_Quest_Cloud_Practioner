@@ -51,3 +51,24 @@ Tech Mahindra-Telia-1
 - Amazon CloudWatch is a monitoring and management service used to monitor the entire CIM platform and store application logs for analysis.
 - Amazon Elastic Compute Cloud (Amazon EC2) provides compute capacity in the cloud, and was used to host Jenkins and JFrog Artifactory as a container for     the CI/CD pipeline.
 - AWS Identity and Access Management (IAM) manages access to AWS services and resources securely.
+
+
+## Database Migration
+
+The source database was Oracle on-premises and the target database deployed on AWS was Aurora with the PostgreSQL relational database service (RDS) engine. Tech Mahindra used AWS DMS for this heterogeneous database migration, along with automation scripts for accurate and accelerated migration execution to the cloud.
+
+![Screenshot 2022-11-02 at 3 02 01 PM](https://user-images.githubusercontent.com/55474202/199591601-d8baa03f-ee0e-4765-bcc1-21ea4cc74e5c.png)
+
+
+
+After the data was migrated to Amazon Aurora PostgreSQL with AWS DMS, they used custom PL/SQL scripts to handle the schema changes. They also used Oracle’s advanced queuing to transfer the incremental data load to the target DB.
+
+Telia had over 70 million records of entries in its current system that had to be moved within a short span of time. The Tech Mahindra team migrated those records to AWS through an extensive data migration approach using AWS DMS.
+
+For this migration, some of the key challenges encountered included:
+
+Heterogeneous database migration.
+Schema changes.
+Huge volume of data to be migrated in a short time.
+Case-sensitive nature of Aurora PostgreSQL.
+The migration approach included moving the necessary data from the existing system, matching the schema of the target DB engine, and cleansing and transforming the target data through automation scripts.
