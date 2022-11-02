@@ -33,9 +33,8 @@ Highly Available Web Applications
 - Configured the Security group rules to allow traffic over port 3306 into DataBase Server. 
 
 ## Migration Concepts.
-- https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2019/05/21/Tech-Mahindra-Telia-1.png![image](https://user-images.githubusercontent.com/55474202/199589311-387a753f-6937-46ee-ac2e-6835b4db9177.png)
-
--
+- ![Screenshot 2022-11-02 at 2 57 36 PM](https://user-images.githubusercontent.com/55474202/199590633-5b100eac-c54f-42a7-a46a-a9b5bb70186e.png)
+ 
 Tech Mahindra-Telia-1
 
 - The following AWS services and features now host components of Telia’s new CIM microservice architecture:
